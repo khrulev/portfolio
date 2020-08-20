@@ -2489,7 +2489,16 @@ input, select, textarea {
 		}
 		
 		.container-header p {
-			padding: 0;
+			padding: 0 10px;
+		}
+
+		.header-goal__2 {
+			margin: 20px 0 0 90px;
+		}
+		
+
+		.header-goal__3{
+			margin: 20px 0 0 20px;
 		}
 
 	}
@@ -2794,7 +2803,11 @@ input, select, textarea {
 
 			.container-header{
 				padding: 0 40% 0 0;
+				text-align: left;
 			}
+
+			
+			
 
 		/* List */
 
