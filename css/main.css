@@ -1981,7 +1981,7 @@ input, select, textarea {
 			text-align: left;
 			padding: 0.5em 1em 0.5em 1em;
 			color: #fff;
-			background-image: url("../../img/bg-dark-0002.jpg");
+			background-image: url("../img/bg-dark-0002.jpg");
 			/* background: #222729 url("img/overlay.png"); */
 		}
 
@@ -2162,7 +2162,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-image: url("../../img/bg-dark-0002.jpg");
+		background-image: url("../img/bg-dark-0002.jpg");
 		/* background: #222629 url("img/overlay.png"); */
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
@@ -2368,7 +2368,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../img/banner.jpg");
+				background-image: url("../img/banner.jpg");
 				/* background-color: #fff;
 				overflow: hidden;
 				position: relative; */
@@ -2636,7 +2636,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background-image: url("../../img/bg-dark-0002.jpg");
+				background-image: url("../img/bg-dark-0002.jpg");
 				/* background: #222729 url("img/overlay.png"); */
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
