@@ -2860,6 +2860,7 @@ input, select, textarea {
 		overflow-x: hidden;
 		transition: all 0.8s ease 0s;
 	}
+	
 	.popup__body{
 		min-height: 100%;
 		display: flex;
@@ -2882,6 +2883,16 @@ input, select, textarea {
 	.popup:target .popup__content{
 		/* transform: translate(0px, 0px); */
 		opacity: 1;
+	}
+
+
+	.popup_content_visible{
+		opacity: 1;
+		visibility: visible !important;
+	}
+
+	.lock{
+		overflow: hidden !important;
 	}
 
 	.popup__close{

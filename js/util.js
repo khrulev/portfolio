@@ -102,21 +102,22 @@
 
 			// Methods.
 				$this._hide = function(event) {
-
+					
 					// Already hidden? Bail.
 						if (!config.target.hasClass(config.visibleClass))
 							return;
-
+							
 					// If an event was provided, cancel it.
 						if (event) {
 
 							event.preventDefault();
 							event.stopPropagation();
-
+							
 						}
 
 					// Hide.
 						config.target.removeClass(config.visibleClass);
+						$body.removeClass('lock');
 
 					// Post-hide stuff.
 						window.setTimeout(function() {
@@ -142,7 +143,7 @@
 
 			// Hide on click.
 				if (config.hideOnClick) {
-
+					
 					$this.find('a')
 						.css('-webkit-tap-highlight-color', 'rgba(0,0,0,0)');
 
@@ -162,7 +163,7 @@
 
 							// Hide panel.
 								$this._hide();
-
+							
 							// Redirect to href.
 								window.setTimeout(function() {
 
@@ -278,6 +279,14 @@
 					event.stopPropagation();
 
 					config.target.toggleClass(config.visibleClass);
+					
+					if (config.target[0].id=='project_1'
+						|| config.target[0].id=='project_2'
+						|| config.target[0].id=='project_3'
+						|| config.target[0].id=='project_4'
+						|| config.target[0].id=='project_5') {
+						$body.toggleClass('lock');
+					}
 
 				});
 

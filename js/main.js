@@ -26,6 +26,8 @@
 			}, 100);
 		});
 
+
+
 	// Nav.
 		var $nav_a = $nav.find('a');
 
@@ -119,5 +121,68 @@
 					target: $body,
 					visibleClass: 'header-visible'
 				});
+
+		// Scroll block
+			$('#project_1')
+				.panel({
+					delay: 500,
+					hideOnClick: true,
+					hideOnSwipe: true,
+					resetScroll: true,
+					resetForms: true,
+					side: 'left',
+					target: $('.project_1_popup'),
+					visibleClass: 'popup_content_visible'
+				})
+
+			$('#project_2')
+				.panel({
+					delay: 500,
+					hideOnClick: true,
+					hideOnSwipe: true,
+					resetScroll: true,
+					resetForms: true,
+					side: 'left',
+					target: $('.project_2_popup'),
+					visibleClass: 'popup_content_visible'
+				})
+
+			$('#project_3')
+				.panel({
+					delay: 500,
+					hideOnClick: true,
+					hideOnSwipe: true,
+					resetScroll: true,
+					resetForms: true,
+					side: 'left',
+					target: $('.project_3_popup'),
+					visibleClass: 'popup_content_visible'
+				})
+
+			$('#project_4')
+				.panel({
+					delay: 500,
+					hideOnClick: true,
+					hideOnSwipe: true,
+					resetScroll: true,
+					resetForms: true,
+					side: 'left',
+					target: $('.project_4_popup'),
+					visibleClass: 'popup_content_visible'
+				})
+			
+			$('#project_5')
+				.panel({
+					delay: 500,
+					hideOnClick: true,
+					hideOnSwipe: true,
+					resetScroll: true,
+					resetForms: true,
+					side: 'left',
+					target: $('.project_5_popup'),
+					visibleClass: 'popup_content_visible'
+				})
+			
+
 
 })(jQuery);
