@@ -134,6 +134,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1.5em;
+		margin-bottom: 15px;
 	}
 
 	header {
@@ -242,7 +243,7 @@ input, select, textarea {
 		}
 	
 	.four{
-		padding: 0 0 200px 0 !important;
+		padding: 70px 0 200px 0 !important;
 	}
 
 	.project__title span, .project__enviroment span, .project__demo span{
@@ -1858,6 +1859,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+			margin-bottom: 15px;
 		}
 
 	ol {
